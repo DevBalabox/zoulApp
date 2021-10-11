@@ -1,0 +1,493 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zoul.zoul"
+4    android:versionCode="9"
+5    android:versionName="1.0.9" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:7:5-67
+14-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="com.android.vending.BILLING" />
+15-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:8:5-67
+15-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:8:22-64
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+16-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+17-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:24:5-79
+18-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:24:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:25:5-68
+19-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:25:22-65
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+21-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+26
+27    <application
+27-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:9:5-38:19
+28        android:name="io.flutter.app.FlutterApplication"
+28-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:9:18-66
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e6856c7cff7219f18cbbcc5d8d7cecec/core-1.1.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/launcher_icon"
+31-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:9:88-124
+32        android:label="Zoul"
+32-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:9:67-87
+33        android:supportsRtl="true"
+33-->[com.facebook.android:facebook-login:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/4b32d17590b9fc8d3981433988839e47/jetified-facebook-login-5.5.1/AndroidManifest.xml:28:18-44
+34        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+34-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:11:18-74
+35        <activity
+35-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:10:9-20:20
+36            android:name="com.zoul.zoul.MainActivity"
+36-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:10:19-47
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:10:114-264
+38            android:hardwareAccelerated="true"
+38-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:10:265-299
+39            android:launchMode="singleTop"
+39-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:10:48-78
+40            android:theme="@style/LaunchTheme"
+40-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:10:79-113
+41            android:windowSoftInputMode="adjustResize" >
+41-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:10:300-342
+42            <intent-filter>
+42-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:11:13-14:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:12:17-69
+43-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:12:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:13:17-77
+45-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:13:27-74
+46            </intent-filter>
+47            <intent-filter>
+47-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:16:13-19:29
+48                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+48-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:17:17-69
+48-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:17:25-66
+49
+50                <category android:name="android.intent.category.DEFAULT" />
+50-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:18:17-76
+50-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:18:27-73
+51            </intent-filter>
+52        </activity>
+53
+54        <meta-data
+54-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:22:9-108
+55            android:name="com.facebook.sdk.ApplicationId"
+55-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:22:20-65
+56            android:value="@string/facebook_app_id" />
+56-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:22:66-105
+57
+58        <activity
+58-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:24:9-183
+59            android:name="com.facebook.FacebookActivity"
+59-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:24:19-63
+60            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+60-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:24:64-147
+61            android:label="@string/app_name"
+61-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:24:148-180
+62            android:theme="@style/com_facebook_activity_theme" />
+62-->[com.facebook.android:facebook-common:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/b77f5884062d8b05acc5611b73846578/jetified-facebook-common-5.5.1/AndroidManifest.xml:32:13-63
+63        <activity
+63-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:26:9-33:20
+64            android:name="com.facebook.CustomTabActivity"
+64-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:26:19-64
+65            android:exported="true" >
+65-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:26:65-88
+66            <intent-filter>
+66-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:27:13-32:29
+67                <action android:name="android.intent.action.VIEW" />
+67-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:28:17-69
+67-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:28:25-66
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:18:17-76
+69-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:18:27-73
+70                <category android:name="android.intent.category.BROWSABLE" />
+70-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:30:17-78
+70-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:30:27-75
+71
+72                <data android:scheme="@string/fb_login_protocol_scheme" />
+72-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:31:17-75
+72-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:31:23-72
+73            </intent-filter>
+74        </activity>
+75
+76        <!--
+77             Don't delete the meta-data below.
+78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+79        -->
+80        <meta-data
+80-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:37:9-72
+81            android:name="flutterEmbedding"
+81-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:37:20-51
+82            android:value="2" />
+82-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:37:52-69
+83        <meta-data
+83-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
+84            android:name="com.google.android.gms.wallet.api.enabled"
+84-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-69
+85            android:value="true" />
+85-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-33
+86
+87        <activity
+87-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:75
+88            android:name="com.gettipsi.stripe.OpenBrowserActivity"
+88-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-67
+89            android:exported="false"
+89-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+90            android:launchMode="singleTask"
+90-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-44
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-72
+92        <activity
+92-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-34:20
+93            android:name="com.gettipsi.stripe.RedirectUriReceiver"
+93-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-67
+94            android:exported="true"
+94-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-36
+95            android:launchMode="singleTask"
+95-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-44
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+96-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-83
+97            <intent-filter>
+97-->[:stripe_payment] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-33:29
+98                <action android:name="android.intent.action.VIEW" />
+98-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:28:17-69
+98-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:28:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:18:17-76
+100-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:18:27-73
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:30:17-78
+101-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:30:27-75
+102
+103                <data android:scheme="example" />
+103-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:31:17-75
+103-->/Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/android/app/src/main/AndroidManifest.xml:31:23-72
+104            </intent-filter>
+105        </activity>
+106
+107        <provider
+107-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+108            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+108-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+109            android:authorities="com.zoul.zoul.flutter.image_provider"
+109-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+110            android:exported="false"
+110-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+111            android:grantUriPermissions="true" >
+111-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+112            <meta-data
+112-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+114                android:resource="@xml/flutter_image_picker_file_paths" />
+114-->[:image_picker] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+115        </provider>
+116
+117        <activity
+117-->[:url_launcher] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+118            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+118-->[:url_launcher] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+119            android:exported="false"
+119-->[:url_launcher] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+120            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+120-->[:url_launcher] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+121
+122        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+122-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+122-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-101
+123            <intent-filter>
+123-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+124                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+124-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+124-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+125            </intent-filter>
+126        </service>
+127        <service
+127-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:19
+128            android:name="com.google.firebase.components.ComponentDiscoveryService"
+128-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-89
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:19.3.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/729dca46a4eb3e825ffcaca51e1af546/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+130            android:exported="false" >
+130-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f83116d0690dd01225dbd5f211dc5390/play-services-measurement-api-17.2.2/AndroidManifest.xml:29:13-37
+131            <meta-data
+131-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:85
+132                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+132-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-127
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-82
+134            <meta-data
+134-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f83116d0690dd01225dbd5f211dc5390/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+135                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+135-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f83116d0690dd01225dbd5f211dc5390/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f83116d0690dd01225dbd5f211dc5390/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+138                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+138-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+140        </service>
+141
+142        <activity
+142-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:12:9-14:57
+143            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+143-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:13:13-76
+144            android:theme="@style/StripeDefaultTheme" />
+144-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:14:13-54
+145        <activity
+145-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:15:9-17:57
+146            android:name="com.stripe.android.view.PaymentMethodsActivity"
+146-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:16:13-74
+147            android:theme="@style/StripeDefaultTheme" />
+147-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:17:13-54
+148        <activity
+148-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:18:9-20:57
+149            android:name="com.stripe.android.view.PaymentFlowActivity"
+149-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:19:13-71
+150            android:theme="@style/StripeDefaultTheme" />
+150-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:20:13-54
+151        <activity
+151-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:21:9-23:57
+152            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+152-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:22:13-78
+153            android:theme="@style/StripeDefaultTheme" />
+153-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:23:13-54
+154        <activity
+154-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:24:9-26:57
+155            android:name="com.stripe.android.view.PaymentRelayActivity"
+155-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:25:13-72
+156            android:theme="@style/StripeDefaultTheme" />
+156-->[com.stripe:stripe-android:10.4.6] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c567365d03bb51be145826d352b0037c/jetified-stripe-android-10.4.6/AndroidManifest.xml:26:13-54
+157        <activity
+157-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f19a6f09c7c0bceb7ef05133b86cac6a/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:12:9-14:54
+158            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+158-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f19a6f09c7c0bceb7ef05133b86cac6a/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:13:13-81
+159            android:theme="@style/Stripe3DS2Theme" />
+159-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f19a6f09c7c0bceb7ef05133b86cac6a/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:14:13-51
+160        <activity
+160-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f19a6f09c7c0bceb7ef05133b86cac6a/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:15:9-17:54
+161            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity"
+161-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f19a6f09c7c0bceb7ef05133b86cac6a/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:16:13-95
+162            android:theme="@style/Stripe3DS2Theme" />
+162-->[com.stripe:stripe-3ds2-android:1.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f19a6f09c7c0bceb7ef05133b86cac6a/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:17:13-51
+163
+164        <receiver
+164-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+165            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+165-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+166            android:enabled="true"
+166-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+167            android:exported="false" >
+167-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+168        </receiver>
+169        <receiver
+169-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+170            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+170-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+171            android:enabled="true"
+171-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+172            android:exported="true"
+172-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+173            android:permission="android.permission.INSTALL_PACKAGES" >
+173-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+174            <intent-filter>
+174-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+175                <action android:name="com.android.vending.INSTALL_REFERRER" />
+175-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+175-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+176            </intent-filter>
+177        </receiver>
+178
+179        <service
+179-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+180            android:name="com.google.android.gms.measurement.AppMeasurementService"
+180-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+181            android:enabled="true"
+181-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+182            android:exported="false" />
+182-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+183        <service
+183-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+184            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+184-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+185            android:enabled="true"
+185-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+186            android:exported="false"
+186-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+187            android:permission="android.permission.BIND_JOB_SERVICE" />
+187-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+188        <!--
+189             FirebaseMessagingService performs security checks at runtime,
+190             but set to not exported to explicitly avoid allowing another app to call it.
+191        -->
+192        <service
+192-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/99c6a07e3323a28666b772a5d0d05266/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:28:9-34:19
+193            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+193-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/99c6a07e3323a28666b772a5d0d05266/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:29:13-82
+194            android:exported="false" >
+194-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/99c6a07e3323a28666b772a5d0d05266/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:30:13-37
+195            <intent-filter android:priority="-500" >
+195-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+196                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+196-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+196-->[:firebase_messaging] /Users/brandonguerrero/Documents/projects/Zoul/MobileApp/zoul/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+197            </intent-filter>
+198        </service>
+199
+200        <receiver
+200-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+201            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+201-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+202            android:exported="true"
+202-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+203            android:permission="com.google.android.c2dm.permission.SEND" >
+203-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+204            <intent-filter>
+204-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+205                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+205-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+205-->[com.google.firebase:firebase-iid:20.0.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+206            </intent-filter>
+207        </receiver>
+208
+209        <provider
+209-->[com.google.firebase:firebase-common:19.3.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/729dca46a4eb3e825ffcaca51e1af546/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+210            android:name="com.google.firebase.provider.FirebaseInitProvider"
+210-->[com.google.firebase:firebase-common:19.3.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/729dca46a4eb3e825ffcaca51e1af546/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+211            android:authorities="com.zoul.zoul.firebaseinitprovider"
+211-->[com.google.firebase:firebase-common:19.3.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/729dca46a4eb3e825ffcaca51e1af546/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+212            android:exported="false"
+212-->[com.google.firebase:firebase-common:19.3.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/729dca46a4eb3e825ffcaca51e1af546/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+213            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+213-->[com.google.firebase:firebase-common:19.3.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/729dca46a4eb3e825ffcaca51e1af546/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+214        <uses-library
+214-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+215            android:name="org.apache.http.legacy"
+215-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+216            android:required="false" />
+216-->[com.google.android.gms:play-services-maps:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+217
+218        <activity
+218-->[com.google.android.gms:play-services-base:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+219            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+219-->[com.google.android.gms:play-services-base:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+220            android:exported="false"
+220-->[com.google.android.gms:play-services-base:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+221            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+221-->[com.google.android.gms:play-services-base:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+222
+223        <meta-data
+223-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/3caab36138668b4e64e413089af86dc9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+224            android:name="com.google.android.gms.version"
+224-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/3caab36138668b4e64e413089af86dc9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+225            android:value="@integer/google_play_services_version" />
+225-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/3caab36138668b4e64e413089af86dc9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+226
+227        <activity android:name="com.facebook.CustomTabMainActivity" />
+227-->[com.facebook.android:facebook-common:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/b77f5884062d8b05acc5611b73846578/jetified-facebook-common-5.5.1/AndroidManifest.xml:33:9-71
+227-->[com.facebook.android:facebook-common:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/b77f5884062d8b05acc5611b73846578/jetified-facebook-common-5.5.1/AndroidManifest.xml:33:19-68
+228        <!--
+229         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+230         with the application context. This config is merged in with the host app's manifest,
+231         but there can only be one provider with the same authority activated at any given
+232         point; so if the end user has two or more different apps that use Facebook SDK, only the
+233         first one will be able to use the provider. To work around this problem, we use the
+234         following placeholder in the authority to identify each host application as if it was
+235         a completely different provider.
+236        -->
+237        <provider
+237-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:39:9-42:40
+238            android:name="com.facebook.internal.FacebookInitProvider"
+238-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:40:13-70
+239            android:authorities="com.zoul.zoul.FacebookInitProvider"
+239-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:41:13-72
+240            android:exported="false" />
+240-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:42:13-37
+241
+242        <receiver
+242-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:44:9-50:20
+243            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+243-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:45:13-86
+244            android:exported="false" >
+244-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:46:13-37
+245            <intent-filter>
+245-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:47:13-49:29
+246                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+246-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:48:17-95
+246-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:48:25-92
+247            </intent-filter>
+248        </receiver>
+249        <receiver
+249-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:51:9-58:20
+250            android:name="com.facebook.CampaignTrackingReceiver"
+250-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:52:13-65
+251            android:exported="true"
+251-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:53:13-36
+252            android:permission="android.permission.INSTALL_PACKAGES" >
+252-->[com.facebook.android:facebook-core:5.5.1] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/f23b942a0dad4300c21339eaf9e27320/jetified-facebook-core-5.5.1/AndroidManifest.xml:54:13-69
+253            <intent-filter>
+253-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+254                <action android:name="com.android.vending.INSTALL_REFERRER" />
+254-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+254-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+255            </intent-filter>
+256        </receiver>
+257
+258        <provider
+258-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/9efdb8de2fbb324eba57eedb811f6250/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+259            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+259-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/9efdb8de2fbb324eba57eedb811f6250/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+260            android:authorities="com.zoul.zoul.lifecycle-process"
+260-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/9efdb8de2fbb324eba57eedb811f6250/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+261            android:exported="false"
+261-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/9efdb8de2fbb324eba57eedb811f6250/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+262            android:multiprocess="true" />
+262-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/9efdb8de2fbb324eba57eedb811f6250/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+263
+264        <meta-data
+264-->[com.android.billingclient:billing:2.0.3] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/b4f303d9dbcf7622305fc61c0e58a647/jetified-billing-2.0.3/AndroidManifest.xml:13:9-15:37
+265            android:name="com.google.android.play.billingclient.version"
+265-->[com.android.billingclient:billing:2.0.3] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/b4f303d9dbcf7622305fc61c0e58a647/jetified-billing-2.0.3/AndroidManifest.xml:14:13-73
+266            android:value="2.0.3" />
+266-->[com.android.billingclient:billing:2.0.3] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/b4f303d9dbcf7622305fc61c0e58a647/jetified-billing-2.0.3/AndroidManifest.xml:15:13-34
+267
+268        <activity
+268-->[com.android.billingclient:billing:2.0.3] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/b4f303d9dbcf7622305fc61c0e58a647/jetified-billing-2.0.3/AndroidManifest.xml:17:9-20:75
+269            android:name="com.android.billingclient.api.ProxyBillingActivity"
+269-->[com.android.billingclient:billing:2.0.3] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/b4f303d9dbcf7622305fc61c0e58a647/jetified-billing-2.0.3/AndroidManifest.xml:18:13-78
+270            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+270-->[com.android.billingclient:billing:2.0.3] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/b4f303d9dbcf7622305fc61c0e58a647/jetified-billing-2.0.3/AndroidManifest.xml:19:13-96
+271            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+271-->[com.android.billingclient:billing:2.0.3] /Users/brandonguerrero/.gradle/caches/transforms-2/files-2.1/b4f303d9dbcf7622305fc61c0e58a647/jetified-billing-2.0.3/AndroidManifest.xml:20:13-72
+272    </application>
+273
+274</manifest>

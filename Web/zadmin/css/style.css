@@ -1,0 +1,561 @@
+@media (max-width : 767px) {
+    body .xx-cover .xx-cover-img {
+        background-attachment: scroll;
+    }
+
+    body .no-desktop {
+        display: block!important;
+    }
+
+    body .no-mobile {
+        display: none!important;
+    }
+
+    body.general .main {
+        padding-top: 70px!important;
+    }
+
+    body a.xx-btn-2{
+        background: rgba(255, 255, 255, 0.15);color: #ffffff!important;padding: 12px;border: 2px solid;
+    }
+
+    .bottom-menu {
+        height: 75px;
+        width: 90%;
+        line-height: 73px;
+    }
+
+    body .bottom-menu .menu-item {
+        width: 50px;
+        height: 50px;
+        line-height: 47px;
+    }
+
+    body .menu-item img {
+        max-width: 40px;
+    }
+}
+
+  .no-desktop {
+      display: none;
+  }
+
+  .no-mobile {
+      display: block;
+  }
+
+  .just-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .just-center-vertical {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+.xx-button-1 {
+    background: linear-gradient(to right, #7f1a70 , #b8498f);
+    display: block;
+    padding: 5px 35px;
+    font-size: 17px;
+    color: #fff!important;
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 3px;
+    text-decoration: none!important;
+}
+
+.xx-navbar-menu a {
+    cursor: pointer;
+}
+
+body .np-left {
+	padding-left: 0px;
+}
+
+body .np-right {
+	padding-right: 0px;
+}
+
+body .xx-col-cont {
+    float: none;
+    margin: auto;
+}
+
+body.general .main {
+    padding-top: 100px;
+}
+
+.tag-input {
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.tag-input label {
+    display: block;
+    text-align: left;
+    font-weight: 400;
+    margin: 5px 0px;
+    padding-left: 5px;
+    font-size: 18px;
+    color: black;
+}
+
+.tag-input label.error {
+    background: #dc6767;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.tag-input select, .tag-input input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    border-style: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #2096f3;
+    width: 100%;
+    color: #8a8a8a;
+    padding: 10px;
+}
+
+.primary-btn {
+    background: #2196F3;
+    color: #fff;
+    border: none;
+    margin-top: 8px;
+    border-radius: 3px;
+    padding: 3px 15px;
+}
+
+.pg-header {
+    height: 50vh;
+    background-color: #fff;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.header-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.pg-header h2 {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.bottom-menu {
+    height: 90px;
+    background: rgba(86, 86, 86, 0.1);
+    padding: 0px 10px;
+    max-width: 100%;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 87px;
+    text-align: center;
+}
+
+.bottom-menu .menu-item {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #ff8ea0,#f9a6b5);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    line-height: 67px;
+    margin: 0px 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.0);
+}
+
+.bottom-menu .menu-item:hover {
+    transform: scale(1.1);
+}
+
+.menu-item img {
+    max-width: 50px;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+.menu-item .tag {
+    position: absolute;
+    transition: 0.3s;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #313131;
+    font-size: 15px;
+}
+
+.menu-item:hover .tag {
+    opacity: 1;
+    top: -20px;
+}
+
+table.table.table-striped [scope=col] {
+    background: linear-gradient(to left, #faa5b3,#ff8fa2);
+    color: #ffffff;
+    vertical-align: middle;
+    font-size: 15px;
+    border-radius: 5px 5px 0px 0px;
+    white-space: pre;
+    font-weight: 400;
+}
+
+.table-cont {
+    width: 100%;
+    overflow: auto;
+}
+
+.dashboard {
+    background: #ececec;
+    padding: 50px;
+    padding-bottom: 150px;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+body .table>tbody>tr>th {
+    font-weight: 400;
+    color: gray;
+}
+
+body table.table.table-striped {
+    border-collapse: separate;
+    border-spacing: 5px 0px;
+}
+
+body .table>tbody>tr>th {
+    font-weight: 400;
+    color: gray;
+    /*white-space: nowrap;*/
+    min-width: 150px;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+}
+
+.table-striped>tbody>tr {
+    transition: 0.2s;
+}
+
+.table-striped>tbody>tr:hover {
+    background: #fcffed!important;
+}
+
+button[action=edit] {
+    background: #aecc14;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin: 2px;
+}
+
+button[action=delete] {
+    background: #ffffff;
+    color: #c37772;
+    border: 2px solid #c37772;
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin: 2px;
+}
+
+.user-pic {
+    background-color: #d2d2d2;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 90px;
+    background-size: cover;
+}
+
+.user-pic.big-pic {
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+    max-width: 100%;
+}
+
+body label.ftd-pic {
+    margin: auto;
+    padding: 5px 25px;
+    margin: 10px auto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+}
+
+/* input[type="text"]:focus {
+    background: #ffa0a0;
+    padding: 7px 0px;
+    padding-left: 10px;
+    color: #fff;
+    border-radius: 50px;
+    border: 2px solid #ffdce1;
+    box-shadow: 0px 0px 4px #ffd0d8;
+} */
+
+.table-cont input:focus {
+    background: #ffe5e5;
+    padding: 7px 0px;
+    padding-left: 10px;
+    color: #000;
+    border-radius: 50px;
+    border: 2px solid #ffdce1;
+    box-shadow: 0px 0px 4px #ffd0d8;
+}
+
+.table-cont input {
+    transition: 0.3s;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.table-cont textarea {
+    transition: 0.3s;
+    background: white;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 6px;
+    outline: none;
+}
+
+.table-cont textarea:focus {
+    background: #ffe5e5;
+    color: #000;
+    border: 2px solid #ffdce1;
+    box-shadow: 0px 0px 4px #ffd0d8;
+}
+
+body select {
+    max-width: 90%;
+    background: #ffffff;
+    padding: 7px 10px;
+    border-radius: 50px;
+    border: 2px solid #d8d8d8;
+    outline: none;
+}
+
+button.disabled {
+    background: gray!important;
+    pointer-events: none!important;
+}
+
+button[action=new_coach] {
+    background: #ffffff;
+    color: #147ed2;
+    border: 2px solid #147ed2;
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin: 2px;
+}
+
+button[action=revoke_coach] {
+    background: #ffffff;
+    color: #353535;
+    border: 2px solid #9a9a9a;
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin: 2px;
+}
+
+button[action=play] {
+    background: #ff8ea0;
+    border: 2px solid pink;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.3s;
+    outline: none;
+}
+
+button[action=play]:hover {
+    background: #e46d80;
+}
+
+button[action=create_new] {
+    transition: 0.3s;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #afcc14!important;
+    border: 2px solid #afcc14!important;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+body.gray-body {
+    background: #f1f1f1;
+}
+
+.small-card {
+    height: 160px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.ftd-img {
+    height: 100%;
+    background: #cacaca;
+    background-image: url(https://i0.wp.com/zblogged.com/wp-content/uploads/2019/02/FakeDP.jpeg?resize=567%2C580&ssl=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.small-card .title {
+    font-size: 23px;
+    margin: 10px 0px;
+    margin-top: 15px;
+}
+
+.small-card .subtitle {
+    display: block;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    font-size: 14px;
+    transition: 0.3s;
+    font-weight: 400;
+    color: white;
+    background-color: #8BC34A;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding: 2px 6px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.inputfile:focus+label,
+.inputfile+label:hover {
+    background-color: #7ba54b;
+}
+
+.inputfile+label {
+    cursor: pointer;
+    /* "hand" cursor */
+}
+
+.inputfile:focus+label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    float: left;
+}
+
+.modal-header {
+    background: linear-gradient(to right, #ff65bf,#fdcb64);
+}
+
+body button.btn-primary {
+    color: #fff;
+    background: linear-gradient(45deg, #8cc34a, #a2da5e);
+    border: navajowhite;
+    border-radius: 50px;
+}
+
+body button.btn.btn-secondary {
+    border-radius: 50px;
+}
+
+body .modal-content {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+body input, textarea {
+    max-width: 100%;
+}
+
+.data-item {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, #4CAF50, #8BC34A);
+    color: #fff;
+    line-height: 215px;
+    text-align: center;
+    border-radius: 200px;
+}
+
+/* .data-item:nth-child(1) {
+    background: linear-gradient(45deg, #4CAF50, #2196F3);
+} */
+
+.data-item-content {
+    line-height: 45px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.data-item .main-value {
+    font-size: 70px;
+    font-weight: 600;
+    display: block;
+}
+
+.data-item .data-tag {
+    color: #ffffff;
+    font-size: 20px;
+}

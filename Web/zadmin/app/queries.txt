@@ -1,0 +1,8 @@
+SELECT count(*), a.creation_date, a.video_id FROM views as a INNER JOIN videos as b WHERE b.coach_id = "coach_IZnaROosy5Y" AND b.video_id = "video_n7namios0sd" GROUP BY YEAR(a.creation_date), month(a.creation_date)
+SELECT count(*), a.creation_date, a.video_id FROM views as a INNER JOIN videos as b WHERE b.coach_id = "coach_IZnaROosy5Y" AND b.video_id = a.video_id GROUP BY YEAR(a.creation_date), month(a.creation_date)
+SELECT * FROM videos as a INNER JOIN coaches as b WHERE b.coach_id = "coach_IZnaROosy5Y" AND b.coach_id = a.coach_id
+SELECT a.id, count(*), a.creation_date FROM views as a INNER JOIN videos as b WHERE b.coach_id = "coach_IZnaROosy5Y" AND b.video_id = a.video_id GROUP BY YEAR(a.creation_date), month(a.creation_date)
+SELECT * FROM disciplines as a INNER JOIN videos as b INNER JOIN coaches as c WHERE a.discipline_id = b.discipline_id AND c.coach_id = "coach_IZnaROosy5Y" GROUP BY a.discipline_id
+SELECT * FROM `users` as a INNER JOIN coaches as b WHERE b.user_id = a.user_id
+SELECT * FROM users WHERE users.user_id NOT IN (SELECT user_id FROM coaches) AND type = "coach"
+UPDATE users AS b INNER JOIN coaches as g ON b.user_id = g.user_id SET b.name = "Susi", g.bank = 'BBVAS' WHERE b.user_id = 'user_C0Z6McY1sWS'

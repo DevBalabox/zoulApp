@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "30312772174",
+    "firebase_url": "https://zoul-app.firebaseio.com",
+    "project_id": "zoul-app",
+    "storage_bucket": "zoul-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30312772174:android:48eb393bd15e8a9219891f",
+        "android_client_info": {
+          "package_name": "com.zoul.zoul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30312772174-obl1vd9kvg5t53nqee9r0akosn2lha50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zoul.zoul",
+            "certificate_hash": "995632365669f44dc73b3be178ae2b088d325717"
+          }
+        },
+        {
+          "client_id": "30312772174-162tpbedq68j93uo1q2ap4jn3h6caft8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT_D9UjMNlmqPSgviZb4LdmIqRCuZgZiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30312772174-162tpbedq68j93uo1q2ap4jn3h6caft8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

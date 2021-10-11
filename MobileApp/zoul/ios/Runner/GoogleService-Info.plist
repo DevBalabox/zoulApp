@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>30312772174-c6qn7tgh2e14a5631iakmg6rd28n00hl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.30312772174-c6qn7tgh2e14a5631iakmg6rd28n00hl</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>30312772174-obl1vd9kvg5t53nqee9r0akosn2lha50.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCeKb1IhjHrwB1WfDyc-8PaNbaO5YmMpA4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>30312772174</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.zoulios.zoulios</string>
+	<key>PROJECT_ID</key>
+	<string>zoul-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zoul-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:30312772174:ios:98e8fdf7d82a884a19891f</string>
+	<key>DATABASE_URL</key>
+	<string>https://zoul-app.firebaseio.com</string>
+</dict>
+</plist>
